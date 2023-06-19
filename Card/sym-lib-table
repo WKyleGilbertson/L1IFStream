@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "L1IFStream")(type "KiCad")(uri "${KIPRJMOD}/L1IFStream.kicad_sym")(options "")(descr ""))
+)
