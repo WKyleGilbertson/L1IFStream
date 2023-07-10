@@ -962,7 +962,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ":KICAD7_3DMODEL_DIR:Connector_Samtec.3dshapes/SMA-J-P-X-RA-TH1.step"
+    (model "${KIPRJMOD}/STEP/SMA-J-P-X-RA-TH1.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -5718,7 +5718,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ":KICAD7_3DMODEL_DIR:Connector_USB.3dshapes/1001-011-01101.STEP"
+    (model "${KIPRJMOD}/STEP/1001-011-01101.STEP"
       (offset (xyz -7 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
