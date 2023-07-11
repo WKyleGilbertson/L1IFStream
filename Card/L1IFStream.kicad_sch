@@ -11033,7 +11033,7 @@
     (property "Value" "QPQ1060" (at 285.75 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "L1IFStream:Filter_SAW-5_1.4x1.2mm" (at 285.75 191.77 0)
+    (property "Footprint" "L1IFStream:QPQ1060_1.4x1.2" (at 285.75 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.qorvo.com/products/p/QPQ1060" (at 285.75 194.31 0)
