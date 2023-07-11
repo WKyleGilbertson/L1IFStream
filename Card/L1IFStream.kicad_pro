@@ -503,5 +503,8 @@
       ""
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "PWB_VER": "Rev A",
+    "SCH_VER": "2"
+  }
 }
