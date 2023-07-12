@@ -50,9 +50,9 @@
       },
       "diff_pair_dimensions": [
         {
-          "gap": 0.25,
-          "via_gap": 0.25,
-          "width": 0.2032
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
         }
       ],
       "drc_exclusions": [],
@@ -178,7 +178,7 @@
         }
       ],
       "track_widths": [
-        0.2032,
+        0.0,
         0.254,
         0.3048,
         0.350012,
@@ -188,8 +188,8 @@
       ],
       "via_dimensions": [
         {
-          "diameter": 0.4572,
-          "drill": 0.3048
+          "diameter": 0.0,
+          "drill": 0.0
         },
         {
           "diameter": 0.7,
@@ -504,7 +504,7 @@
     ]
   ],
   "text_variables": {
-    "PWB_VER": "Rev A",
-    "SCH_VER": "2"
+    "PWB_VER": "A",
+    "SCH_VER": "1"
   }
 }

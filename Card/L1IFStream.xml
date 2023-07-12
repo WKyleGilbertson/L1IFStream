@@ -2,13 +2,15 @@
 <export version="E">
   <design>
     <source>C:\git\GPS\L1IFStream\Card\L1IFStream.kicad_sch</source>
-    <date>2023-07-11 11:28:21 AM</date>
+    <date>2023-07-12 10:48:40 AM</date>
     <tool>Eeschema 7.0.6</tool>
+    <textvar name="PWB_VER">A</textvar>
+    <textvar name="SCH_VER">1</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>L1 IF Stream</title>
         <company/>
-        <rev>2</rev>
+        <rev>1</rev>
         <date>2023-06-19</date>
         <source>L1IFStream.kicad_sch</source>
         <comment number="1" value="creativecommons.org/licenses/by/4.0/"/>
@@ -190,7 +192,7 @@
       <tstamps>00000000-0000-0000-0000-00005ec846fc</tstamps>
     </comp>
     <comp ref="C12">
-      <value>470 pF</value>
+      <value>NL</value>
       <footprint>L1IFStream:C_0402_1005Metric</footprint>
       <fields>
         <field name="Description">CAP CER 470PF 50V C0G/NP0 0402 10%</field>
@@ -340,7 +342,7 @@
       <tstamps>00000000-0000-0000-0000-00005ee15da1</tstamps>
     </comp>
     <comp ref="C22">
-      <value>NC</value>
+      <value>NL</value>
       <footprint>L1IFStream:C_0402_1005Metric</footprint>
       <fields>
         <field name="Description">CAP CER 10000PF 10V X7R 0402</field>
@@ -400,7 +402,7 @@
       <tstamps>00000000-0000-0000-0000-00005ed466fd</tstamps>
     </comp>
     <comp ref="C26">
-      <value>NC</value>
+      <value>NL</value>
       <footprint>L1IFStream:C_0402_1005Metric</footprint>
       <fields>
         <field name="Description">CAP CER 10000PF 10V X7R 0402</field>
@@ -839,7 +841,17 @@
       <value>TPD1E10B06</value>
       <footprint>L1IFStream:Texas_DPY0002A_0.6x1mm_P0.65mm</footprint>
       <datasheet>https://www.ti.com/product/TPD1E10B06</datasheet>
+      <fields>
+        <field name="Description">TVS DIODE 5.5VWM 14VC 2X1SON</field>
+        <field name="Detailed">14V (Typ) Clamp 6A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x.60)</field>
+        <field name="Digi-Key">296-TPD1E10B06QDPYRQ1DKR-ND</field>
+        <field name="MPN">TPD1E10B06QDPYRQ1</field>
+      </fields>
       <libsource lib="L1IFStream" part="TPD1E10B06" description="TPD1E10B06 Single-Channel ESD Protection Diode"/>
+      <property name="MPN" value="TPD1E10B06QDPYRQ1"/>
+      <property name="Digi-Key" value="296-TPD1E10B06QDPYRQ1DKR-ND"/>
+      <property name="Description" value="TVS DIODE 5.5VWM 14VC 2X1SON"/>
+      <property name="Detailed" value="14V (Typ) Clamp 6A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x.60)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <property name="ki_description" value="TPD1E10B06 Single-Channel ESD Protection Diode"/>
@@ -849,9 +861,17 @@
     </comp>
     <comp ref="D3">
       <value>ESD321</value>
-      <footprint>Diode_SMD:D_0402_1005Metric</footprint>
+      <footprint>L1IFStream:DPY-PX1SON_1.0mmx0.6mm</footprint>
       <datasheet>https://www.ti.com/product/ESD321</datasheet>
+      <fields>
+        <field name="Description">TVS DIODE 3.6VWM 6.8VC 2X1SON</field>
+        <field name="Digi-Key">296-51108-6-ND</field>
+        <field name="MPN">ESD321DPYR</field>
+      </fields>
       <libsource lib="L1IFStream" part="ESD321" description="Dual Line CAN Bus Protector, 24Vrwm"/>
+      <property name="MPN" value="ESD321DPYR"/>
+      <property name="Description" value="TVS DIODE 3.6VWM 6.8VC 2X1SON"/>
+      <property name="Digi-Key" value="296-51108-6-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <property name="ki_description" value="Dual Line CAN Bus Protector, 24Vrwm"/>
@@ -861,9 +881,17 @@
     </comp>
     <comp ref="D4">
       <value>ESD321</value>
-      <footprint>Diode_SMD:D_0402_1005Metric</footprint>
+      <footprint>L1IFStream:DPY-PX1SON_1.0mmx0.6mm</footprint>
       <datasheet>https://www.ti.com/product/ESD321</datasheet>
+      <fields>
+        <field name="Description">TVS DIODE 3.6VWM 6.8VC 2X1SON</field>
+        <field name="Digi-Key">296-51108-6-ND</field>
+        <field name="MPN">ESD321DPYR</field>
+      </fields>
       <libsource lib="L1IFStream" part="ESD321" description="Dual Line CAN Bus Protector, 24Vrwm"/>
+      <property name="MPN" value="ESD321DPYR"/>
+      <property name="Description" value="TVS DIODE 3.6VWM 6.8VC 2X1SON"/>
+      <property name="Digi-Key" value="296-51108-6-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <property name="ki_description" value="Dual Line CAN Bus Protector, 24Vrwm"/>
@@ -877,10 +905,16 @@
       <footprint>L1IFStream:Texas_DPY0002A_0.6x1mm_P0.65mm</footprint>
       <datasheet>https://www.ti.com/product/TPD1E01B04</datasheet>
       <fields>
-        <field name="Digi-Key">296-44484-1-ND</field>
+        <field name="Description">AUTOMOTIVE 0.18-PF, 3.6-V, 15-KV</field>
+        <field name="Detailed">15V (Typ) Clamp 2.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x.60)</field>
+        <field name="Digi-Key">296-TPD1E01B04DPYRQ1DKR-ND</field>
+        <field name="MPN">TPD1E01B04DPYRQ1</field>
       </fields>
       <libsource lib="L1IFStream" part="TPD1E01B04" description="TPD1E01B04 Single-Channel ESD Protection Diode"/>
-      <property name="Digi-Key" value="296-44484-1-ND"/>
+      <property name="Digi-Key" value="296-TPD1E01B04DPYRQ1DKR-ND"/>
+      <property name="MPN" value="TPD1E01B04DPYRQ1"/>
+      <property name="Description" value="AUTOMOTIVE 0.18-PF, 3.6-V, 15-KV"/>
+      <property name="Detailed" value="15V (Typ) Clamp 2.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x.60)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <property name="ki_description" value="TPD1E01B04 Single-Channel ESD Protection Diode"/>
@@ -894,10 +928,16 @@
       <footprint>L1IFStream:Texas_DPY0002A_0.6x1mm_P0.65mm</footprint>
       <datasheet>https://www.ti.com/product/TPD1E01B04</datasheet>
       <fields>
-        <field name="Digi-Key">296-44484-1-ND</field>
+        <field name="Description">AUTOMOTIVE 0.18-PF, 3.6-V, 15-KV</field>
+        <field name="Detailed">15V (Typ) Clamp 2.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x.60)</field>
+        <field name="Digi-Key">296-TPD1E01B04DPYRQ1DKR-ND</field>
+        <field name="MPN">TPD1E01B04DPYRQ1</field>
       </fields>
       <libsource lib="L1IFStream" part="TPD1E01B04" description="TPD1E01B04 Single-Channel ESD Protection Diode"/>
-      <property name="Digi-Key" value="296-44484-1-ND"/>
+      <property name="Digi-Key" value="296-TPD1E01B04DPYRQ1DKR-ND"/>
+      <property name="MPN" value="TPD1E01B04DPYRQ1"/>
+      <property name="Description" value="AUTOMOTIVE 0.18-PF, 3.6-V, 15-KV"/>
+      <property name="Detailed" value="15V (Typ) Clamp 2.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x.60)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <property name="ki_description" value="TPD1E01B04 Single-Channel ESD Protection Diode"/>
@@ -1065,7 +1105,7 @@
       <tstamps>00000000-0000-0000-0000-00005fb5632a</tstamps>
     </comp>
     <comp ref="R2">
-      <value>0</value>
+      <value>NL</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1080,7 +1120,7 @@
       <tstamps>00000000-0000-0000-0000-00005fb3d107</tstamps>
     </comp>
     <comp ref="R3">
-      <value>NC</value>
+      <value>0</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1095,7 +1135,7 @@
       <tstamps>00000000-0000-0000-0000-00005fac46c7</tstamps>
     </comp>
     <comp ref="R4">
-      <value>0</value>
+      <value>NL</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1110,7 +1150,7 @@
       <tstamps>00000000-0000-0000-0000-00006037ddb8</tstamps>
     </comp>
     <comp ref="R5">
-      <value>0</value>
+      <value>NL</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1125,7 +1165,7 @@
       <tstamps>00000000-0000-0000-0000-00005fcc758a</tstamps>
     </comp>
     <comp ref="R6">
-      <value>NC</value>
+      <value>NL</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1140,7 +1180,7 @@
       <tstamps>00000000-0000-0000-0000-00005fcc7592</tstamps>
     </comp>
     <comp ref="R7">
-      <value>0</value>
+      <value>NL</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1155,7 +1195,7 @@
       <tstamps>00000000-0000-0000-0000-00005fcedc2a</tstamps>
     </comp>
     <comp ref="R8">
-      <value>NC</value>
+      <value>0</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1170,7 +1210,7 @@
       <tstamps>00000000-0000-0000-0000-0000600fc682</tstamps>
     </comp>
     <comp ref="R9">
-      <value>NC</value>
+      <value>0</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1185,7 +1225,7 @@
       <tstamps>00000000-0000-0000-0000-0000601dd071</tstamps>
     </comp>
     <comp ref="R10">
-      <value>NC</value>
+      <value>0</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1383,13 +1423,18 @@
     <comp ref="U1">
       <value>MAX2769ETI+T</value>
       <footprint>L1IFStream:MAX2769ETI&amp;plus_T</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/MAX2769B.pdf</datasheet>
       <fields>
         <field name="Description">RF RX GNSS 1575.42MHZ 28TQFN</field>
-        <field name="Digi-Key">MAX2769BETI/V+-ND</field>
+        <field name="Detailed">- RF Receiver GNSS, GPS 1575.42MHz PCB, Surface Mount 28-TQFN (5x5)</field>
+        <field name="Digi-Key">175-MAX2769BETI/V+-ND</field>
+        <field name="MPN">MAX2769BETI/V+</field>
       </fields>
       <libsource lib="L1IFStream-rescue" part="MAX2769ETI+T-MAX2769FT2232H" description=""/>
       <property name="Description" value="RF RX GNSS 1575.42MHZ 28TQFN"/>
-      <property name="Digi-Key" value="MAX2769BETI/V+-ND"/>
+      <property name="Digi-Key" value="175-MAX2769BETI/V+-ND"/>
+      <property name="MPN" value="MAX2769BETI/V+"/>
+      <property name="Detailed" value="- RF Receiver GNSS, GPS 1575.42MHz PCB, Surface Mount 28-TQFN (5x5)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1554,7 +1599,16 @@
     <comp ref="X1">
       <value>SIT5156</value>
       <footprint>L1IFStream:10L_CQFN</footprint>
+      <datasheet>https://www.sitime.com/support/resource-library/datasheets/sit5156-datasheet</datasheet>
+      <fields>
+        <field name="Digi-Key">1473-SIT5156AICFK-30N0-16.368000-ND</field>
+        <field name="Frequency">16.368 MHz</field>
+        <field name="MPN">SIT5156AICFK-30N0-16.368000</field>
+      </fields>
       <libsource lib="L1IFStream" part="SIT5156AICFA-30N0-16.368000_1" description=""/>
+      <property name="MPN" value="SIT5156AICFK-30N0-16.368000"/>
+      <property name="Digi-Key" value="1473-SIT5156AICFK-30N0-16.368000-ND"/>
+      <property name="Frequency" value="16.368 MHz"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1579,7 +1633,11 @@
       <value>QPQ1060</value>
       <footprint>L1IFStream:QPQ1060_1.4x1.2</footprint>
       <datasheet>https://www.qorvo.com/products/p/QPQ1060</datasheet>
+      <fields>
+        <field name="Mouser">772-QPQ1060SR</field>
+      </fields>
       <libsource lib="L1IFStream" part="QPQ1060" description="Bandpass Filter, 1090MHz, SAW filter 6-pin"/>
+      <property name="Mouser" value="772-QPQ1060SR"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <property name="ki_description" value="Bandpass Filter, 1090MHz, SAW filter 6-pin"/>
@@ -1710,8 +1768,9 @@
       <fields>
         <field name="Reference">X3</field>
         <field name="Value">QPQ1060</field>
-        <field name="Footprint">MAX2769FT2232H:Filter_SAW-5_1.4x1.2mm</field>
+        <field name="Footprint">L1IFStream:QPQ1060_1.4x1.2</field>
         <field name="Datasheet">https://www.qorvo.com/products/p/QPQ1060</field>
+        <field name="Mouser">772-QPQ1060SR</field>
       </fields>
       <pins>
         <pin num="1" name="IN" type="input"/>
@@ -2517,7 +2576,7 @@
     </net>
     <net code="42" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
     </net>
     <net code="43" name="Net-(D2-K)">
       <node ref="C30" pin="1" pintype="passive"/>
@@ -2599,7 +2658,7 @@
       <node ref="U5" pin="1" pinfunction="DO" pintype="unspecified"/>
     </net>
     <net code="59" name="Net-(U6-BDBUS2)">
-      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
       <node ref="U6" pin="40" pinfunction="BDBUS2" pintype="bidirectional"/>
     </net>
     <net code="60" name="Net-(U6-OSCI)">
@@ -2648,43 +2707,43 @@
       <node ref="U4" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
     <net code="71" name="unconnected-(U6-ACBUS0-Pad26)">
-      <node ref="U6" pin="26" pinfunction="ACBUS0" pintype="bidirectional"/>
+      <node ref="U6" pin="26" pinfunction="ACBUS0" pintype="bidirectional+no_connect"/>
     </net>
     <net code="72" name="unconnected-(U6-ACBUS2-Pad28)">
-      <node ref="U6" pin="28" pinfunction="ACBUS2" pintype="bidirectional"/>
+      <node ref="U6" pin="28" pinfunction="ACBUS2" pintype="bidirectional+no_connect"/>
     </net>
     <net code="73" name="unconnected-(U6-ACBUS5-Pad32)">
-      <node ref="U6" pin="32" pinfunction="ACBUS5" pintype="bidirectional"/>
+      <node ref="U6" pin="32" pinfunction="ACBUS5" pintype="bidirectional+no_connect"/>
     </net>
     <net code="74" name="unconnected-(U6-ACBUS6-Pad33)">
-      <node ref="U6" pin="33" pinfunction="ACBUS6" pintype="bidirectional"/>
+      <node ref="U6" pin="33" pinfunction="ACBUS6" pintype="bidirectional+no_connect"/>
     </net>
     <net code="75" name="unconnected-(U6-ACBUS7-Pad34)">
-      <node ref="U6" pin="34" pinfunction="ACBUS7" pintype="bidirectional"/>
+      <node ref="U6" pin="34" pinfunction="ACBUS7" pintype="bidirectional+no_connect"/>
     </net>
     <net code="76" name="unconnected-(U6-BCBUS0-Pad48)">
-      <node ref="U6" pin="48" pinfunction="BCBUS0" pintype="bidirectional"/>
+      <node ref="U6" pin="48" pinfunction="BCBUS0" pintype="bidirectional+no_connect"/>
     </net>
     <net code="77" name="unconnected-(U6-BCBUS1-Pad52)">
-      <node ref="U6" pin="52" pinfunction="BCBUS1" pintype="bidirectional"/>
+      <node ref="U6" pin="52" pinfunction="BCBUS1" pintype="bidirectional+no_connect"/>
     </net>
     <net code="78" name="unconnected-(U6-BCBUS2-Pad53)">
-      <node ref="U6" pin="53" pinfunction="BCBUS2" pintype="bidirectional"/>
+      <node ref="U6" pin="53" pinfunction="BCBUS2" pintype="bidirectional+no_connect"/>
     </net>
     <net code="79" name="unconnected-(U6-BCBUS3-Pad54)">
-      <node ref="U6" pin="54" pinfunction="BCBUS3" pintype="bidirectional"/>
+      <node ref="U6" pin="54" pinfunction="BCBUS3" pintype="bidirectional+no_connect"/>
     </net>
     <net code="80" name="unconnected-(U6-BCBUS4-Pad55)">
-      <node ref="U6" pin="55" pinfunction="BCBUS4" pintype="bidirectional"/>
+      <node ref="U6" pin="55" pinfunction="BCBUS4" pintype="bidirectional+no_connect"/>
     </net>
     <net code="81" name="unconnected-(U6-BCBUS5-Pad57)">
-      <node ref="U6" pin="57" pinfunction="BCBUS5" pintype="bidirectional"/>
+      <node ref="U6" pin="57" pinfunction="BCBUS5" pintype="bidirectional+no_connect"/>
     </net>
     <net code="82" name="unconnected-(U6-BCBUS6-Pad58)">
-      <node ref="U6" pin="58" pinfunction="BCBUS6" pintype="bidirectional"/>
+      <node ref="U6" pin="58" pinfunction="BCBUS6" pintype="bidirectional+no_connect"/>
     </net>
     <net code="83" name="unconnected-(U6-BCBUS7-Pad59)">
-      <node ref="U6" pin="59" pinfunction="BCBUS7" pintype="bidirectional"/>
+      <node ref="U6" pin="59" pinfunction="BCBUS7" pintype="bidirectional+no_connect"/>
     </net>
     <net code="84" name="unconnected-(U6-OSCO-Pad3)">
       <node ref="U6" pin="3" pinfunction="OSCO" pintype="output+no_connect"/>
