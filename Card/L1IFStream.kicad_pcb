@@ -6456,6 +6456,11 @@
       (net 89 "MIXIN") (pinfunction "OUT") (pintype "output") (thermal_bridge_angle 45) (tstamp ac69bbbe-d807-4341-bfc6-a18962677362))
     (pad "5" smd rect (at 0 -0.2875 180) (size 0.25 0.325) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pinfunction "GND") (pintype "passive") (thermal_bridge_angle 45) (tstamp 9ad376c3-dfdf-4db1-806d-466a2cce20fa))
+    (model "${KIPRJMOD}/STEP/QPQ1060SR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "L1IFStream:10L_CQFN" (layer "F.Cu")

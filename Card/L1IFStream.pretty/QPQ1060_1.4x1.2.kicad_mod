@@ -57,4 +57,9 @@
     (thermal_bridge_angle 45) (tstamp a505db5c-927c-4b45-a108-a9c3c1d81af2))
   (pad "5" smd rect (at 0 -0.2875) (size 0.25 0.325) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 95322c6a-af6c-4793-b035-deda8911d80d))
+  (model "${KIPRJMOD}/STEP/QPQ1060SR.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
