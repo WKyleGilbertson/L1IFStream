@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\git\GPS\L1IFStream\Card\L1IFStream.kicad_sch</source>
-    <date>2023-07-12 10:48:40 AM</date>
+    <date>2023-07-14 10:18:54 AM</date>
     <tool>Eeschema 7.0.6</tool>
     <textvar name="PWB_VER">A</textvar>
     <textvar name="SCH_VER">1</textvar>
@@ -827,9 +827,11 @@
       <datasheet>https://www.digikey.com/en/products/detail/qt-brightek-qtb/QBLP601-AG1-2943/14664280</datasheet>
       <fields>
         <field name="Digi-Key">QBLP601-AG1-2943</field>
+        <field name="MPN">QBLP601-AG1-2943</field>
       </fields>
       <libsource lib="L1IFStream" part="LED_Small_Filled" description="Light emitting diode, small symbol, filled shape"/>
       <property name="Digi-Key" value="QBLP601-AG1-2943"/>
+      <property name="MPN" value="QBLP601-AG1-2943"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode, small symbol, filled shape"/>
@@ -1105,7 +1107,7 @@
       <tstamps>00000000-0000-0000-0000-00005fb5632a</tstamps>
     </comp>
     <comp ref="R2">
-      <value>NL</value>
+      <value>0</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1120,7 +1122,7 @@
       <tstamps>00000000-0000-0000-0000-00005fb3d107</tstamps>
     </comp>
     <comp ref="R3">
-      <value>0</value>
+      <value>NL</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1135,7 +1137,7 @@
       <tstamps>00000000-0000-0000-0000-00005fac46c7</tstamps>
     </comp>
     <comp ref="R4">
-      <value>NL</value>
+      <value>0</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1150,7 +1152,7 @@
       <tstamps>00000000-0000-0000-0000-00006037ddb8</tstamps>
     </comp>
     <comp ref="R5">
-      <value>NL</value>
+      <value>0</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1180,7 +1182,7 @@
       <tstamps>00000000-0000-0000-0000-00005fcc7592</tstamps>
     </comp>
     <comp ref="R7">
-      <value>NL</value>
+      <value>0</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1195,7 +1197,7 @@
       <tstamps>00000000-0000-0000-0000-00005fcedc2a</tstamps>
     </comp>
     <comp ref="R8">
-      <value>0</value>
+      <value>NL</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1210,7 +1212,7 @@
       <tstamps>00000000-0000-0000-0000-0000600fc682</tstamps>
     </comp>
     <comp ref="R9">
-      <value>0</value>
+      <value>NL</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1225,7 +1227,7 @@
       <tstamps>00000000-0000-0000-0000-0000601dd071</tstamps>
     </comp>
     <comp ref="R10">
-      <value>0</value>
+      <value>NL</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
       <fields>
         <field name="Description">RES 0 OHM JUMPER 0603</field>
@@ -1364,13 +1366,16 @@
     <comp ref="R19">
       <value>330</value>
       <footprint>L1IFStream:R_0603_1608Metric</footprint>
+      <datasheet>https://www.koaspeer.com/pdfs/RK73H.pdf</datasheet>
       <fields>
-        <field name="Description">RES 10K OHM 1% 1/10W 0603</field>
-        <field name="Digi-Key">2019-RK73H1JTTD1002FCT-ND</field>
+        <field name="Description">RES 330 OHM 1% 1/8W 0603</field>
+        <field name="Digi-Key">2019-RK73H1JTTD3300FDKR-ND</field>
+        <field name="MPN">RK73H1JTTD3300F</field>
       </fields>
       <libsource lib="L1IFStream-rescue" part="R_US-MAX2769FT2232H" description=""/>
-      <property name="Description" value="RES 10K OHM 1% 1/10W 0603"/>
-      <property name="Digi-Key" value="2019-RK73H1JTTD1002FCT-ND"/>
+      <property name="Description" value="RES 330 OHM 1% 1/8W 0603"/>
+      <property name="Digi-Key" value="2019-RK73H1JTTD3300FDKR-ND"/>
+      <property name="MPN" value="RK73H1JTTD3300F"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1426,15 +1431,19 @@
       <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/MAX2769B.pdf</datasheet>
       <fields>
         <field name="Description">RF RX GNSS 1575.42MHZ 28TQFN</field>
-        <field name="Detailed">- RF Receiver GNSS, GPS 1575.42MHz PCB, Surface Mount 28-TQFN (5x5)</field>
-        <field name="Digi-Key">175-MAX2769BETI/V+-ND</field>
         <field name="MPN">MAX2769BETI/V+</field>
+        <field name="Manufacturer">Analog Devices Inc./ Maxim Integrated</field>
+        <field name="Notes">- RF Receiver GNSS, GPS 1575.42MHz PCB, Surface Mount 28-TQFN (5x5)</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">175-MAX2769BETI/V+-ND</field>
       </fields>
       <libsource lib="L1IFStream-rescue" part="MAX2769ETI+T-MAX2769FT2232H" description=""/>
       <property name="Description" value="RF RX GNSS 1575.42MHZ 28TQFN"/>
-      <property name="Digi-Key" value="175-MAX2769BETI/V+-ND"/>
+      <property name="Manufacturer" value="Analog Devices Inc./ Maxim Integrated"/>
       <property name="MPN" value="MAX2769BETI/V+"/>
-      <property name="Detailed" value="- RF Receiver GNSS, GPS 1575.42MHz PCB, Surface Mount 28-TQFN (5x5)"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N#" value="175-MAX2769BETI/V+-ND"/>
+      <property name="Notes" value="- RF Receiver GNSS, GPS 1575.42MHz PCB, Surface Mount 28-TQFN (5x5)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1443,13 +1452,20 @@
     <comp ref="U2">
       <value>TPS717285DCKR</value>
       <footprint>L1IFStream:TPS717285DCKR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps717.pdf</datasheet>
       <fields>
         <field name="Description">IC REG LINEAR 2.85V 150MA SC70-5</field>
-        <field name="Digi-Key">296-19649-1-ND</field>
+        <field name="MPN">TPS717285DCKR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">296-19649-1-ND</field>
       </fields>
       <libsource lib="" part="TPS717285DCKR-MAX2769FT2232H_1" description=""/>
       <property name="Description" value="IC REG LINEAR 2.85V 150MA SC70-5"/>
-      <property name="Digi-Key" value="296-19649-1-ND"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N#" value="296-19649-1-ND"/>
+      <property name="MPN" value="TPS717285DCKR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1458,17 +1474,24 @@
     <comp ref="U3">
       <value>TPS717285DCKR</value>
       <footprint>L1IFStream:TPS717285DCKR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps717.pdf</datasheet>
       <fields>
         <field name="Description">IC REG LINEAR 2.85V 150MA SC70-5</field>
-        <field name="Digi-Key">296-19649-1-ND</field>
+        <field name="MPN">TPS717285DCKR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">296-19649-1-ND</field>
       </fields>
-      <libsource lib="L1IFStream-rescue" part="TPS717285DCKR-MAX2769FT2232H" description=""/>
+      <libsource lib="" part="TPS717285DCKR-MAX2769FT2232H_1" description=""/>
       <property name="Description" value="IC REG LINEAR 2.85V 150MA SC70-5"/>
-      <property name="Digi-Key" value="296-19649-1-ND"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N#" value="296-19649-1-ND"/>
+      <property name="MPN" value="TPS717285DCKR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005f3154c8</tstamps>
+      <tstamps>0351012c-d3db-4b41-9c3d-16083601dadb</tstamps>
     </comp>
     <comp ref="U4">
       <value>NCP164CSN330T1G</value>
@@ -1476,11 +1499,18 @@
       <datasheet>https://www.onsemi.com/pub/Collateral/NCP164C-D.PDF</datasheet>
       <fields>
         <field name="Description">LDO 300 MA AD 3.3V, ULTRA</field>
-        <field name="Digi-Key">488-NCP164CSN330T1GCT-ND</field>
+        <field name="MPN">NCP164CSN330T1G</field>
+        <field name="Manufacturer">Onsemi</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">488-NCP164CSN330T1GCT-ND</field>
       </fields>
       <libsource lib="L1IFStream-rescue" part="NCP164CSN330T1G-MAX2769FT2232H" description=""/>
-      <property name="Digi-Key" value="488-NCP164CSN330T1GCT-ND"/>
       <property name="Description" value="LDO 300 MA AD 3.3V, ULTRA"/>
+      <property name="Manufacturer" value="Onsemi"/>
+      <property name="MPN" value="NCP164CSN330T1G"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N#" value="488-NCP164CSN330T1GCT-ND"/>
+      <property name="Notes" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1489,13 +1519,21 @@
     <comp ref="U5">
       <value>93LC66BT-I_OT</value>
       <footprint>L1IFStream:93LC66BT-I&amp;slash_OT</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/21795E.pdf</datasheet>
       <fields>
         <field name="Description">IC EEPROM 4K SPI 2MHZ SOT23-6</field>
-        <field name="Digi-Key">93LC66BT-I/OTCT-ND</field>
+        <field name="MPN">93LC66BT-I/OT</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">93LC66BT-I/OTCT-ND</field>
       </fields>
       <libsource lib="L1IFStream-rescue" part="93LC66BT-I_OT-MAX2769FT2232H" description=""/>
       <property name="Description" value="IC EEPROM 4K SPI 2MHZ SOT23-6"/>
-      <property name="Digi-Key" value="93LC66BT-I/OTCT-ND"/>
+      <property name="Manufacturer" value="Microchip"/>
+      <property name="MPN" value="93LC66BT-I/OT"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N#" value="93LC66BT-I/OTCT-ND"/>
+      <property name="Notes" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1504,13 +1542,21 @@
     <comp ref="U6">
       <value>FT2232H-Interface_USB</value>
       <footprint>L1IFStream:LQFP-64_10x10mm_P0.5mm</footprint>
+      <datasheet>https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf</datasheet>
       <fields>
         <field name="Description">IC USB HS DUAL UART/FIFO 64-LQFP</field>
-        <field name="Digi-Key">768-1024-1-ND</field>
+        <field name="MPN">FT2232HL-REEL</field>
+        <field name="Manufacturer">FTDI</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">768-1024-1-ND</field>
       </fields>
       <libsource lib="L1IFStream-rescue" part="FT2232H-Interface_USB-MAX2769FT2232H" description=""/>
       <property name="Description" value="IC USB HS DUAL UART/FIFO 64-LQFP"/>
-      <property name="Digi-Key" value="768-1024-1-ND"/>
+      <property name="Manufacturer" value="FTDI"/>
+      <property name="MPN" value="FT2232HL-REEL"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N#" value="768-1024-1-ND"/>
+      <property name="Notes" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1522,11 +1568,18 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/74LVC1G74.pdf</datasheet>
       <fields>
         <field name="Description">IC FF D-TYPE SNGL 1BIT 8XSON</field>
-        <field name="Digi-Key">1727-3558-1-ND</field>
+        <field name="MPN">74LVC1G74GT,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">1727-3558-1-ND</field>
       </fields>
       <libsource lib="L1IFStream-rescue" part="74LVC1G74-MAX2769FT2232H" description=""/>
-      <property name="Digi-Key" value="1727-3558-1-ND"/>
       <property name="Description" value="IC FF D-TYPE SNGL 1BIT 8XSON"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="MPN" value="74LVC1G74GT,115"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N#" value="1727-3558-1-ND"/>
+      <property name="Notes" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1538,11 +1591,18 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf</datasheet>
       <fields>
         <field name="Description">IC INVERTER 1CH 1-INP 5TSSOP</field>
-        <field name="Digi-Key">1727-2871-1-ND</field>
+        <field name="MPN">74LVC1G04GW,125</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">1727-2871-1-ND</field>
       </fields>
       <libsource lib="L1IFStream-rescue" part="74LVC1G04-MAX2769FT2232H" description=""/>
-      <property name="Digi-Key" value="1727-2871-1-ND"/>
       <property name="Description" value="IC INVERTER 1CH 1-INP 5TSSOP"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="MPN" value="74LVC1G04GW,125"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N#" value="1727-2871-1-ND"/>
+      <property name="Notes" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1554,11 +1614,18 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/74LVC374A.pdf</datasheet>
       <fields>
         <field name="Description">IC FF D-TYPE SNGL 8BIT 20TSSOP</field>
-        <field name="Digi-Key">1727-4034-1-ND</field>
+        <field name="MPN">74LVC374APW,118</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">1727-4034-1-ND</field>
       </fields>
       <libsource lib="L1IFStream-rescue" part="74LVC374-MAX2769FT2232H" description=""/>
-      <property name="Digi-Key" value="1727-4034-1-ND"/>
       <property name="Description" value="IC FF D-TYPE SNGL 8BIT 20TSSOP"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="MPN" value="74LVC374APW,118"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N#" value="1727-4034-1-ND"/>
+      <property name="Notes" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1570,27 +1637,41 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/74LVC374A.pdf</datasheet>
       <fields>
         <field name="Description">IC FF D-TYPE SNGL 8BIT 20TSSOP</field>
-        <field name="Digi-Key">1727-4034-1-ND</field>
+        <field name="MPN">74LVC374APW,118</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">1727-4034-1-ND</field>
       </fields>
       <libsource lib="L1IFStream-rescue" part="74LVC374-MAX2769FT2232H" description=""/>
-      <property name="Digi-Key" value="1727-4034-1-ND"/>
       <property name="Description" value="IC FF D-TYPE SNGL 8BIT 20TSSOP"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="MPN" value="74LVC374APW,118"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N#" value="1727-4034-1-ND"/>
+      <property name="Notes" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005f6726fd</tstamps>
+      <tstamps>1c340f33-1e6b-4799-b969-ad1e6cad5202</tstamps>
     </comp>
     <comp ref="U11">
-      <value>74HC2G04</value>
+      <value>74HC2GU04</value>
       <footprint>L1IFStream:SOT-363_SC-70-6</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G04.pdf</datasheet>
       <fields>
         <field name="Description">IC INVERTER 2CH 2-INP 6TSSOP</field>
-        <field name="Digi-Key">1727-6045-1-ND</field>
+        <field name="MPN">74HC2GU04GW,125</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">1727-6915-6-ND</field>
       </fields>
       <libsource lib="" part="74HC2G04-MAX2769FT2232H_2" description=""/>
-      <property name="Digi-Key" value="1727-6045-1-ND"/>
       <property name="Description" value="IC INVERTER 2CH 2-INP 6TSSOP"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="MPN" value="74HC2GU04GW,125"/>
+      <property name="Notes" value=""/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N#" value="1727-6915-6-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1601,14 +1682,19 @@
       <footprint>L1IFStream:10L_CQFN</footprint>
       <datasheet>https://www.sitime.com/support/resource-library/datasheets/sit5156-datasheet</datasheet>
       <fields>
-        <field name="Digi-Key">1473-SIT5156AICFK-30N0-16.368000-ND</field>
-        <field name="Frequency">16.368 MHz</field>
+        <field name="Description">MEMS OSC TCXO 16.3680MHZ</field>
         <field name="MPN">SIT5156AICFK-30N0-16.368000</field>
+        <field name="Manufacturer">SiTime</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">1473-SIT5156AICFK-30N0-16.368000-ND</field>
       </fields>
       <libsource lib="L1IFStream" part="SIT5156AICFA-30N0-16.368000_1" description=""/>
+      <property name="Description" value="MEMS OSC TCXO 16.3680MHZ"/>
+      <property name="Manufacturer" value="SiTime"/>
       <property name="MPN" value="SIT5156AICFK-30N0-16.368000"/>
-      <property name="Digi-Key" value="1473-SIT5156AICFK-30N0-16.368000-ND"/>
-      <property name="Frequency" value="16.368 MHz"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N#" value="1473-SIT5156AICFK-30N0-16.368000-ND"/>
+      <property name="Notes" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1617,13 +1703,21 @@
     <comp ref="X2">
       <value>SIT2024BA-S8-33E-12.00000E</value>
       <footprint>L1IFStream:SIT2024BA-S8-33E-12.000000E</footprint>
+      <datasheet>https://www.sitime.com/support/resource-library/datasheets/sit2024-datasheet</datasheet>
       <fields>
         <field name="Description">MEMS OSC XO 12.0000MHZ LVCMOS LV</field>
-        <field name="Digi-Key">1473-SIT2024BA-S8-33E-12.000000G-ND</field>
+        <field name="MPN">SIT2024BA-S8-33E-12.000000</field>
+        <field name="Manufacturer">SiTime</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">1473-SIT2024BA-S8-33E-12.000000G-ND</field>
       </fields>
       <libsource lib="L1IFStream-rescue" part="SIT2024BA-S8-33E-12.00000E-MAX2769FT2232H" description=""/>
       <property name="Description" value="MEMS OSC XO 12.0000MHZ LVCMOS LV"/>
-      <property name="Digi-Key" value="1473-SIT2024BA-S8-33E-12.000000G-ND"/>
+      <property name="Manufacturer" value="SiTime"/>
+      <property name="MPN" value="SIT2024BA-S8-33E-12.000000"/>
+      <property name="Vendor" value="DigiKey"/>
+      <property name="Vendor P/N#" value="1473-SIT2024BA-S8-33E-12.000000G-ND"/>
+      <property name="Notes" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1634,10 +1728,19 @@
       <footprint>L1IFStream:QPQ1060_1.4x1.2</footprint>
       <datasheet>https://www.qorvo.com/products/p/QPQ1060</datasheet>
       <fields>
-        <field name="Mouser">772-QPQ1060SR</field>
+        <field name="Description">Signal Conditioning L1 TC-SAW, GSO</field>
+        <field name="MPN">QPQ1060SR</field>
+        <field name="Manufacturer">Qorvo</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Vendor P/N#">772-QPQ1060SR</field>
       </fields>
       <libsource lib="L1IFStream" part="QPQ1060" description="Bandpass Filter, 1090MHz, SAW filter 6-pin"/>
-      <property name="Mouser" value="772-QPQ1060SR"/>
+      <property name="Manufacturer" value="Qorvo"/>
+      <property name="MPN" value="QPQ1060SR"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="Vendor P/N#" value="772-QPQ1060SR"/>
+      <property name="Description" value="Signal Conditioning L1 TC-SAW, GSO"/>
+      <property name="Notes" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <property name="ki_description" value="Bandpass Filter, 1090MHz, SAW filter 6-pin"/>
@@ -1657,10 +1760,14 @@
       <fields>
         <field name="Reference">U11</field>
         <field name="Value">74HC2G04</field>
-        <field name="Footprint">MAX2769FT2232H:SOT-363_SC-70-6</field>
+        <field name="Footprint">L1IFStream:SOT-363_SC-70-6</field>
         <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G04.pdf</field>
-        <field name="Digi-Key">1727-6045-1-ND</field>
+        <field name="Vendor P/N#">1727-6045-1-ND</field>
         <field name="Description">IC INVERTER 2CH 2-INP 6TSSOP</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="MPN">74HC2G04GW,125</field>
+        <field name="Notes">Is this supposed to be non-inverting?</field>
       </fields>
       <pins>
         <pin num="1" name="1A" type="input"/>
@@ -1860,15 +1967,21 @@
       </pins>
     </libpart>
     <libpart lib="L1IFStream-rescue" part="74LVC1G74-MAX2769FT2232H">
+      <docs>https://assets.nexperia.com/documents/data-sheet/74LVC1G74.pdf</docs>
       <footprints>
         <fp>SSOP*</fp>
         <fp>VSSOP*</fp>
       </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MAX2769FT2232H_74LVC1G74</field>
-        <field name="Digi-Key">1727-7885-1-ND</field>
+        <field name="Reference">U7</field>
+        <field name="Value">74LVC1G74</field>
+        <field name="Footprint">L1IFStream:SOT-833-1</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74LVC1G74.pdf</field>
+        <field name="Vendor P/N#">1727-3558-1-ND</field>
         <field name="Description">IC FF D-TYPE SNGL 1BIT 8XSON</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="MPN">74LVC1G74GT,115</field>
+        <field name="Vendor">DigiKey</field>
       </fields>
       <pins>
         <pin num="1" name="C" type="input"/>
@@ -2179,25 +2292,6 @@
         <pin num="2" name="NC" type="no_connect"/>
         <pin num="3" name="OE/NC" type="unspecified"/>
         <pin num="4" name="VDD" type="power_in"/>
-        <pin num="5" name="OUT" type="output"/>
-      </pins>
-    </libpart>
-    <libpart lib="L1IFStream-rescue" part="TPS717285DCKR-MAX2769FT2232H">
-      <footprints>
-        <fp>DCK5</fp>
-        <fp>DCK5-M</fp>
-        <fp>DCK5-L</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MAX2769FT2232H_TPS717285DCKR</field>
-        <field name="Footprint">DCK5</field>
-      </fields>
-      <pins>
-        <pin num="1" name="IN" type="input"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="EN" type="unspecified"/>
-        <pin num="4" name="NR/FB" type="bidirectional"/>
         <pin num="5" name="OUT" type="output"/>
       </pins>
     </libpart>
