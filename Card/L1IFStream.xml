@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\git\GPS\L1IFStream\Card\L1IFStream.kicad_sch</source>
-    <date>2023-07-14 10:18:54 AM</date>
+    <date>2023-07-14 12:01:19 PM</date>
     <tool>Eeschema 7.0.6</tool>
     <textvar name="PWB_VER">A</textvar>
     <textvar name="SCH_VER">1</textvar>
@@ -824,7 +824,6 @@
     <comp ref="D1">
       <value>LED</value>
       <footprint>L1IFStream:LED_0603_1608Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/qt-brightek-qtb/QBLP601-AG1-2943/14664280</datasheet>
       <fields>
         <field name="Digi-Key">QBLP601-AG1-2943</field>
         <field name="MPN">QBLP601-AG1-2943</field>
@@ -841,7 +840,7 @@
     </comp>
     <comp ref="D2">
       <value>TPD1E10B06</value>
-      <footprint>L1IFStream:Texas_DPY0002A_0.6x1mm_P0.65mm</footprint>
+      <footprint>Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm</footprint>
       <datasheet>https://www.ti.com/product/TPD1E10B06</datasheet>
       <fields>
         <field name="Description">TVS DIODE 5.5VWM 14VC 2X1SON</field>
@@ -863,7 +862,7 @@
     </comp>
     <comp ref="D3">
       <value>ESD321</value>
-      <footprint>L1IFStream:DPY-PX1SON_1.0mmx0.6mm</footprint>
+      <footprint>Diode_SMD:D_0402_1005Metric</footprint>
       <datasheet>https://www.ti.com/product/ESD321</datasheet>
       <fields>
         <field name="Description">TVS DIODE 3.6VWM 6.8VC 2X1SON</field>
@@ -883,7 +882,7 @@
     </comp>
     <comp ref="D4">
       <value>ESD321</value>
-      <footprint>L1IFStream:DPY-PX1SON_1.0mmx0.6mm</footprint>
+      <footprint>Diode_SMD:D_0402_1005Metric</footprint>
       <datasheet>https://www.ti.com/product/ESD321</datasheet>
       <fields>
         <field name="Description">TVS DIODE 3.6VWM 6.8VC 2X1SON</field>
@@ -1596,7 +1595,7 @@
         <field name="Vendor">DigiKey</field>
         <field name="Vendor P/N#">1727-2871-1-ND</field>
       </fields>
-      <libsource lib="L1IFStream-rescue" part="74LVC1G04-MAX2769FT2232H" description=""/>
+      <libsource lib="L1IFStream" part="74LVC1G04" description=""/>
       <property name="Description" value="IC INVERTER 1CH 1-INP 5TSSOP"/>
       <property name="Manufacturer" value="Nexperia"/>
       <property name="MPN" value="74LVC1G04GW,125"/>
@@ -1606,7 +1605,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00006006598c</tstamps>
+      <tstamps>a2211c76-2605-488a-9ea9-65095dd08abd</tstamps>
     </comp>
     <comp ref="U9">
       <value>74LVC374</value>
@@ -1660,18 +1659,19 @@
       <datasheet>https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G04.pdf</datasheet>
       <fields>
         <field name="Description">IC INVERTER 2CH 2-INP 6TSSOP</field>
-        <field name="MPN">74HC2GU04GW,125</field>
+        <field name="MPN">74HC2G04GW,125</field>
         <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Is this supposed to be non-inverting?</field>
         <field name="Vendor">DigiKey</field>
-        <field name="Vendor P/N#">1727-6915-6-ND</field>
+        <field name="Vendor P/N#">1727-6045-1-ND</field>
       </fields>
-      <libsource lib="" part="74HC2G04-MAX2769FT2232H_2" description=""/>
+      <libsource lib="L1IFStream" part="74HC2UG04" description=""/>
       <property name="Description" value="IC INVERTER 2CH 2-INP 6TSSOP"/>
       <property name="Manufacturer" value="Nexperia"/>
-      <property name="MPN" value="74HC2GU04GW,125"/>
-      <property name="Notes" value=""/>
+      <property name="MPN" value="74HC2G04GW,125"/>
+      <property name="Notes" value="Is this supposed to be non-inverting?"/>
       <property name="Vendor" value="DigiKey"/>
-      <property name="Vendor P/N#" value="1727-6915-6-ND"/>
+      <property name="Vendor P/N#" value="1727-6045-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="L1IFStream.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1679,7 +1679,7 @@
     </comp>
     <comp ref="X1">
       <value>SIT5156</value>
-      <footprint>L1IFStream:10L_CQFN</footprint>
+      <footprint>MAX2769FT2232H:10L_CQFN</footprint>
       <datasheet>https://www.sitime.com/support/resource-library/datasheets/sit5156-datasheet</datasheet>
       <fields>
         <field name="Description">MEMS OSC TCXO 16.3680MHZ</field>
@@ -1725,7 +1725,7 @@
     </comp>
     <comp ref="X3">
       <value>QPQ1060</value>
-      <footprint>L1IFStream:QPQ1060_1.4x1.2</footprint>
+      <footprint>MAX2769FT2232H:Filter_SAW-5_1.4x1.2mm</footprint>
       <datasheet>https://www.qorvo.com/products/p/QPQ1060</datasheet>
       <fields>
         <field name="Description">Signal Conditioning L1 TC-SAW, GSO</field>
@@ -1750,34 +1750,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="" part="74HC2G04-MAX2769FT2232H_2">
-      <docs>https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G04.pdf</docs>
-      <footprints>
-        <fp>DIP*W7.62mm*</fp>
-        <fp>SSOP?14*</fp>
-        <fp>TSSOP?14*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U11</field>
-        <field name="Value">74HC2G04</field>
-        <field name="Footprint">L1IFStream:SOT-363_SC-70-6</field>
-        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G04.pdf</field>
-        <field name="Vendor P/N#">1727-6045-1-ND</field>
-        <field name="Description">IC INVERTER 2CH 2-INP 6TSSOP</field>
-        <field name="Vendor">DigiKey</field>
-        <field name="Manufacturer">Nexperia</field>
-        <field name="MPN">74HC2G04GW,125</field>
-        <field name="Notes">Is this supposed to be non-inverting?</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1A" type="input"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="2A" type="input"/>
-        <pin num="4" name="2Y" type="output"/>
-        <pin num="5" name="VCC" type="power_in"/>
-        <pin num="6" name="1Y" type="output"/>
-      </pins>
-    </libpart>
     <libpart lib="" part="TPS717285DCKR-MAX2769FT2232H_1">
       <footprints>
         <fp>DCK5</fp>
@@ -1831,6 +1803,59 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="L1IFStream" part="74HC2UG04">
+      <docs>https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G04.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SSOP?14*</fp>
+        <fp>TSSOP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U11</field>
+        <field name="Value">74HC2UG04</field>
+        <field name="Footprint">L1IFStream:SOT-363_SC-70-6</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G04.pdf</field>
+        <field name="Vendor P/N#">1727-6045-1-ND</field>
+        <field name="Description">IC INVERTER 2CH 2-INP 6TSSOP</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="MPN">74HC2G04GW,125</field>
+        <field name="Notes">Is this supposed to be non-inverting?</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="2Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="1Y" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="L1IFStream" part="74LVC1G04">
+      <docs>https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U8</field>
+        <field name="Value">74LVC1G04</field>
+        <field name="Footprint">L1IFStream:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf</field>
+        <field name="Description">IC INVERTER 1CH 1-INP 5TSSOP</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="MPN">74LVC1G04GW,125</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Vendor P/N#">1727-2871-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="L1IFStream" part="ESD321">
       <description>Dual Line CAN Bus Protector, 24Vrwm</description>
       <docs>https://www.ti.com/product/ESD321</docs>
@@ -1875,9 +1900,8 @@
       <fields>
         <field name="Reference">X3</field>
         <field name="Value">QPQ1060</field>
-        <field name="Footprint">L1IFStream:QPQ1060_1.4x1.2</field>
+        <field name="Footprint">MAX2769FT2232H:Filter_SAW-5_1.4x1.2mm</field>
         <field name="Datasheet">https://www.qorvo.com/products/p/QPQ1060</field>
-        <field name="Mouser">772-QPQ1060SR</field>
       </fields>
       <pins>
         <pin num="1" name="IN" type="input"/>
@@ -1934,36 +1958,14 @@
         <fp>SOT?23*</fp>
       </footprints>
       <fields>
-        <field name="Reference">D2</field>
+        <field name="Reference">D1</field>
         <field name="Value">TPD1E10B06</field>
-        <field name="Footprint">L1IFStream:Texas_DPY0002A_0.6x1mm_P0.65mm</field>
+        <field name="Footprint">Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm</field>
         <field name="Datasheet">https://www.ti.com/product/TPD1E10B06</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="L1IFStream-rescue" part="74LVC1G04-MAX2769FT2232H">
-      <docs>https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf</docs>
-      <footprints>
-        <fp>SOT*</fp>
-        <fp>SG-*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U8</field>
-        <field name="Value">74LVC1G04</field>
-        <field name="Footprint">L1IFStream:SOT-353_SC-70-5</field>
-        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf</field>
-        <field name="Digi-Key">1727-2871-1-ND</field>
-        <field name="Description">IC INVERTER 1CH 1-INP 5TSSOP</field>
-      </fields>
-      <pins>
-        <pin num="1" name="NC" type="no_connect"/>
-        <pin num="2" name="" type="input"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="" type="output"/>
-        <pin num="5" name="VCC" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="L1IFStream-rescue" part="74LVC1G74-MAX2769FT2232H">
@@ -2602,7 +2604,6 @@
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
@@ -2650,19 +2651,14 @@
       <node ref="U9" pin="18" pinfunction="D7" pintype="input"/>
       <node ref="X1" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="X2" pin="1" pinfunction="GND" pintype="power_in"/>
-      <node ref="X3" pin="2" pinfunction="GND" pintype="passive"/>
-      <node ref="X3" pin="3" pinfunction="GND" pintype="passive"/>
-      <node ref="X3" pin="5" pinfunction="GND" pintype="passive"/>
     </net>
     <net code="39" name="LNAOUT">
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="LNAOUT" pintype="unspecified"/>
-      <node ref="X3" pin="1" pinfunction="IN" pintype="input"/>
     </net>
     <net code="40" name="MIXIN">
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="MIXIN" pintype="unspecified"/>
-      <node ref="X3" pin="4" pinfunction="OUT" pintype="output"/>
     </net>
     <net code="41" name="Net-(C2-Pad1)">
       <node ref="C2" pin="1" pintype="passive"/>
@@ -2791,113 +2787,131 @@
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="X2" pin="3" pinfunction="OE/NC" pintype="unspecified"/>
     </net>
-    <net code="68" name="unconnected-(U1-NC-Pad22)">
+    <net code="68" name="unconnected-(D2-A-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="69" name="unconnected-(U1-NC-Pad22)">
       <node ref="U1" pin="22" pinfunction="NC" pintype="unspecified+no_connect"/>
     </net>
-    <net code="69" name="unconnected-(U1-NC-Pad28)">
+    <net code="70" name="unconnected-(U1-NC-Pad28)">
       <node ref="U1" pin="28" pinfunction="NC" pintype="unspecified+no_connect"/>
     </net>
-    <net code="70" name="unconnected-(U4-NC-Pad4)">
+    <net code="71" name="unconnected-(U4-NC-Pad4)">
       <node ref="U4" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="71" name="unconnected-(U6-ACBUS0-Pad26)">
+    <net code="72" name="unconnected-(U6-ACBUS0-Pad26)">
       <node ref="U6" pin="26" pinfunction="ACBUS0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="72" name="unconnected-(U6-ACBUS2-Pad28)">
+    <net code="73" name="unconnected-(U6-ACBUS2-Pad28)">
       <node ref="U6" pin="28" pinfunction="ACBUS2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="73" name="unconnected-(U6-ACBUS5-Pad32)">
+    <net code="74" name="unconnected-(U6-ACBUS5-Pad32)">
       <node ref="U6" pin="32" pinfunction="ACBUS5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(U6-ACBUS6-Pad33)">
+    <net code="75" name="unconnected-(U6-ACBUS6-Pad33)">
       <node ref="U6" pin="33" pinfunction="ACBUS6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="75" name="unconnected-(U6-ACBUS7-Pad34)">
+    <net code="76" name="unconnected-(U6-ACBUS7-Pad34)">
       <node ref="U6" pin="34" pinfunction="ACBUS7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="76" name="unconnected-(U6-BCBUS0-Pad48)">
+    <net code="77" name="unconnected-(U6-BCBUS0-Pad48)">
       <node ref="U6" pin="48" pinfunction="BCBUS0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(U6-BCBUS1-Pad52)">
+    <net code="78" name="unconnected-(U6-BCBUS1-Pad52)">
       <node ref="U6" pin="52" pinfunction="BCBUS1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U6-BCBUS2-Pad53)">
+    <net code="79" name="unconnected-(U6-BCBUS2-Pad53)">
       <node ref="U6" pin="53" pinfunction="BCBUS2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U6-BCBUS3-Pad54)">
+    <net code="80" name="unconnected-(U6-BCBUS3-Pad54)">
       <node ref="U6" pin="54" pinfunction="BCBUS3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U6-BCBUS4-Pad55)">
+    <net code="81" name="unconnected-(U6-BCBUS4-Pad55)">
       <node ref="U6" pin="55" pinfunction="BCBUS4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U6-BCBUS5-Pad57)">
+    <net code="82" name="unconnected-(U6-BCBUS5-Pad57)">
       <node ref="U6" pin="57" pinfunction="BCBUS5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U6-BCBUS6-Pad58)">
+    <net code="83" name="unconnected-(U6-BCBUS6-Pad58)">
       <node ref="U6" pin="58" pinfunction="BCBUS6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U6-BCBUS7-Pad59)">
+    <net code="84" name="unconnected-(U6-BCBUS7-Pad59)">
       <node ref="U6" pin="59" pinfunction="BCBUS7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U6-OSCO-Pad3)">
+    <net code="85" name="unconnected-(U6-OSCO-Pad3)">
       <node ref="U6" pin="3" pinfunction="OSCO" pintype="output+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U6-~{PWREN}-Pad60)">
+    <net code="86" name="unconnected-(U6-~{PWREN}-Pad60)">
       <node ref="U6" pin="60" pinfunction="~{PWREN}" pintype="output+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U6-~{SUSPEND}-Pad36)">
+    <net code="87" name="unconnected-(U6-~{SUSPEND}-Pad36)">
       <node ref="U6" pin="36" pinfunction="~{SUSPEND}" pintype="output+no_connect"/>
     </net>
-    <net code="87" name="unconnected-(U8-NC-Pad1)">
+    <net code="88" name="unconnected-(U8-NC-Pad1)">
       <node ref="U8" pin="1" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="88" name="unconnected-(U9-Q4-Pad12)">
+    <net code="89" name="unconnected-(U9-Q4-Pad12)">
       <node ref="U9" pin="12" pinfunction="Q4" pintype="tri_state+no_connect"/>
     </net>
-    <net code="89" name="unconnected-(U9-Q5-Pad15)">
+    <net code="90" name="unconnected-(U9-Q5-Pad15)">
       <node ref="U9" pin="15" pinfunction="Q5" pintype="tri_state+no_connect"/>
     </net>
-    <net code="90" name="unconnected-(U9-Q6-Pad16)">
+    <net code="91" name="unconnected-(U9-Q6-Pad16)">
       <node ref="U9" pin="16" pinfunction="Q6" pintype="tri_state+no_connect"/>
     </net>
-    <net code="91" name="unconnected-(U9-Q7-Pad19)">
+    <net code="92" name="unconnected-(U9-Q7-Pad19)">
       <node ref="U9" pin="19" pinfunction="Q7" pintype="tri_state+no_connect"/>
     </net>
-    <net code="92" name="unconnected-(U10-Q4-Pad12)">
+    <net code="93" name="unconnected-(U10-Q4-Pad12)">
       <node ref="U10" pin="12" pinfunction="Q4" pintype="tri_state+no_connect"/>
     </net>
-    <net code="93" name="unconnected-(U10-Q5-Pad15)">
+    <net code="94" name="unconnected-(U10-Q5-Pad15)">
       <node ref="U10" pin="15" pinfunction="Q5" pintype="tri_state+no_connect"/>
     </net>
-    <net code="94" name="unconnected-(U10-Q6-Pad16)">
+    <net code="95" name="unconnected-(U10-Q6-Pad16)">
       <node ref="U10" pin="16" pinfunction="Q6" pintype="tri_state+no_connect"/>
     </net>
-    <net code="95" name="unconnected-(U10-Q7-Pad19)">
+    <net code="96" name="unconnected-(U10-Q7-Pad19)">
       <node ref="U10" pin="19" pinfunction="Q7" pintype="tri_state+no_connect"/>
     </net>
-    <net code="96" name="unconnected-(X1-NC-Pad1)">
+    <net code="97" name="unconnected-(X1-NC-Pad1)">
       <node ref="X1" pin="1" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="97" name="unconnected-(X1-NC-Pad2)">
+    <net code="98" name="unconnected-(X1-NC-Pad2)">
       <node ref="X1" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="98" name="unconnected-(X1-NC-Pad3)">
+    <net code="99" name="unconnected-(X1-NC-Pad3)">
       <node ref="X1" pin="3" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="99" name="unconnected-(X1-NC-Pad5)">
+    <net code="100" name="unconnected-(X1-NC-Pad5)">
       <node ref="X1" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="100" name="unconnected-(X1-NC-Pad7)">
+    <net code="101" name="unconnected-(X1-NC-Pad7)">
       <node ref="X1" pin="7" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="101" name="unconnected-(X1-NC-Pad8)">
+    <net code="102" name="unconnected-(X1-NC-Pad8)">
       <node ref="X1" pin="8" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="102" name="unconnected-(X1-NC-Pad10)">
+    <net code="103" name="unconnected-(X1-NC-Pad10)">
       <node ref="X1" pin="10" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="103" name="unconnected-(X2-NC-Pad2)">
+    <net code="104" name="unconnected-(X2-NC-Pad2)">
       <node ref="X2" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(X3-GND-Pad2)">
+      <node ref="X3" pin="2" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="106" name="unconnected-(X3-GND-Pad3)">
+      <node ref="X3" pin="3" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="107" name="unconnected-(X3-GND-Pad5)">
+      <node ref="X3" pin="5" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="108" name="unconnected-(X3-IN-Pad1)">
+      <node ref="X3" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="109" name="unconnected-(X3-OUT-Pad4)">
+      <node ref="X3" pin="4" pinfunction="OUT" pintype="output"/>
     </net>
   </nets>
 </export>
