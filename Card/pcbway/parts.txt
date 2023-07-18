@@ -1,0 +1,3 @@
+5 maxim chips
+5 qorvo chips
+5 SiTime chips
