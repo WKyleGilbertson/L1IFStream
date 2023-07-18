@@ -2287,10 +2287,10 @@
       (net 4 "GND") (pinfunction "Shield") (pintype "passive") (tstamp b6e6e49f-c11a-416d-954e-681127067fea))
     (pad "1" smd rect (at 13.005 13.005) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pinfunction "Shield") (pintype "passive") (tstamp 9a38d8b4-28ef-4245-aa71-e600fd265690))
-    (model "${KISYS3DMOD}/RF_Shielding.3dshapes/Laird_Technologies_BMI-S-103_26.21x26.21mm.wrl"
+    (model "${KIPRJMOD}/STEP/Laird-BMI-S-103-1.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
