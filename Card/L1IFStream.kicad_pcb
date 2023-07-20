@@ -39,7 +39,7 @@
 
   (setup
     (pad_to_mask_clearance 0.0508)
-    (solder_mask_min_width 0.25)
+    (solder_mask_min_width 0.05)
     (aux_axis_origin 174.4218 98.162)
     (pcbplotparams
       (layerselection 0x00012f8_ffffffff)
@@ -73,7 +73,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "FAB/")
+      (outputdirectory "FAB/0720/")
     )
   )
 
