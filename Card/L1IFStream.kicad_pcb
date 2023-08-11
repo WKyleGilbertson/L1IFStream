@@ -42,7 +42,7 @@
     (solder_mask_min_width 0.05)
     (aux_axis_origin 174.4218 98.162)
     (pcbplotparams
-      (layerselection 0x00012f8_ffffffff)
+      (layerselection 0x00010a0_7ffffff8)
       (plot_on_all_layers_selection 0x0000000_00000000)
       (disableapertmacros false)
       (usegerberextensions false)
@@ -69,11 +69,11 @@
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 5)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "FAB/0720/")
+      (outputdirectory "FAB/0810/")
     )
   )
 
