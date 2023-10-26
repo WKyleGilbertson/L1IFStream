@@ -38,6 +38,22 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen") (color "#143324FF"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (color "Black") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (color "FR4 natural") (thickness 0.48) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "In1.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 2" (type "prepreg") (color "FR4 natural") (thickness 0.48) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "In2.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 3" (type "core") (color "FR4 natural") (thickness 0.48) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "Black") (thickness 0.01))
+      (layer "B.SilkS" (type "Bottom Silk Screen") (color "#143324FF"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0.0508)
     (solder_mask_min_width 0.05)
     (aux_axis_origin 174.4218 98.162)
@@ -2305,7 +2321,7 @@
     (pad "1" smd rect (at 13.005 13.005) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pinfunction "Shield") (pintype "passive") (tstamp 9a38d8b4-28ef-4245-aa71-e600fd265690))
     (model "${KIPRJMOD}/STEP/Laird-BMI-S-103-1.STEP"
-      (offset (xyz 0 0 0))
+      (offset (xyz 0 0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
