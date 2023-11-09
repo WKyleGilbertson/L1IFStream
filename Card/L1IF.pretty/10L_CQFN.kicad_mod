@@ -31,4 +31,9 @@
   (pad "8" smd rect (at 1.025 -0.6) (size 1.35 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp feaed0e1-9423-405c-abc4-6901165a58f5))
   (pad "9" smd rect (at 1.175 -2.025) (size 1.05 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp de6e765e-8773-4591-bb62-1e366b52511b))
   (pad "10" smd rect (at 0 -2.025) (size 0.7 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f889c90e-46c1-4158-8d20-98433c358955))
+  (model "${KIPRJMOD}/STEP/Oscillator_SMD_IDT_JS6-6_5.0x3.2mm_P1.27mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
